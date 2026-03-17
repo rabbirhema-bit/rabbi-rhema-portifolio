@@ -7,10 +7,10 @@ const WHITE = "#F0EDE6";
 const GRAY = "#7A7A72";
 const GOLD_BORDER = "rgba(201,160,41,0.22)";
 
-// ── UPDATE THESE BEFORE GOING LIVE ──────────────────────────────────────────
+// â”€â”€ UPDATE THESE BEFORE GOING LIVE â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 const CALENDLY   = "https://calendly.com/rhemaabikoye";
 const NOTION_GMM = "https://www.notion.so/Singapore-Market-Intelligence-Report-March-2026-11005491c6e042ca9ab1bb061012f333";
-// ────────────────────────────────────────────────────────────────────────────
+// â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 const css = `
   @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garant:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600&display=swap');
@@ -71,40 +71,40 @@ const WORKS = [
   {
     num:"01", tag:"Mentorship Programme", status:"Active",
     title:"6-Month Digital Marketing Mastery",
-    desc:"A full-stack mentorship curriculum covering affiliate marketing, distribution strategy, and monetization architecture — built for Africa's next generation of digital entrepreneurs.",
+    desc:"A full-stack mentorship curriculum covering affiliate marketing, distribution strategy, and monetization architecture â€” built for Africa's next generation of digital entrepreneurs.",
     expand:false, link:null, scroll:null, linkLabel:"Apply for Mentorship",
   },
   {
     num:"02", tag:"Paid Framework", status:"Enrolling",
     title:"Global Market Metrics",
-    desc:"A proprietary 9-dimension framework for analyzing any country's market readiness. Country-by-country intelligence reports unlocked through enrollment — starting with Singapore.",
+    desc:"A proprietary 9-dimension framework for analyzing any country's market readiness. Country-by-country intelligence reports unlocked through enrollment â€” starting with Singapore.",
     expand:true,
     expandContent:{
       what:"Global Market Metrics is Rabbi Rhema's flagship analytical framework. Each of the 9 dimensions is a structured lens through which any global market is evaluated and scored. Singapore is the first published analysis. New markets drop on a rolling enrollment schedule.",
       dimensions:["Base Power","Relationship Power","Loaned Power","Labor Power","Backend Defense","Currency Strength","Reliance","Trust Market","Behavioral Characteristics"],
       access:"Access to full country analysis reports is available via paid enrollment. Submit the form or book a call to receive pricing and onboarding details.",
-      notionLabel:"Preview: Singapore Analysis →",
+      notionLabel:"Preview: Singapore Analysis â†’",
     },
   },
   {
     num:"03", tag:"Framework & Book", status:"In Development",
-    title:"The O³ Operator",
+    title:"The OÂ³ Operator",
     desc:"Outthink. Outbuild. Outgrow. A PDF book and methodology for early-stage entrepreneurs built around three interconnected operating principles.",
     expand:true,
     expandContent:{
-      what:"The O³ Operator is a complete operating manual for early-stage entrepreneurs. Built around Origin, Order, and Output — three principles that define how market operators think, build, and compound growth over time.",
+      what:"The OÂ³ Operator is a complete operating manual for early-stage entrepreneurs. Built around Origin, Order, and Output â€” three principles that define how market operators think, build, and compound growth over time.",
       pillars:[
-        {sym:"O¹", name:"Origin — Outthink", desc:"Your foundation. Positioning, philosophy, and unfair advantages mapped before a single move is made."},
-        {sym:"O²", name:"Order — Outbuild",  desc:"The architecture. Systems, sequences, and structures that translate vision into compounding operational reality."},
-        {sym:"O³", name:"Output — Outgrow",  desc:"The result. Where aligned origin and intelligent order cause market forces to start working for you."},
+        {sym:"OÂ¹", name:"Origin â€” Outthink", desc:"Your foundation. Positioning, philosophy, and unfair advantages mapped before a single move is made."},
+        {sym:"OÂ²", name:"Order â€” Outbuild",  desc:"The architecture. Systems, sequences, and structures that translate vision into compounding operational reality."},
+        {sym:"OÂ³", name:"Output â€” Outgrow",  desc:"The result. Where aligned origin and intelligent order cause market forces to start working for you."},
       ],
-      access:"PDF book in development. Early access available — book a call to get on the priority list.",
+      access:"PDF book in development. Early access available â€” book a call to get on the priority list.",
     },
   },
   {
     num:"04", tag:"Ecosystem", status:"Coming Soon",
     title:"Entrepreneur's Growth Lab",
-    desc:"A curated ecosystem for founders and operators — built around market intelligence, peer accountability, and compounding distribution strategy.",
+    desc:"A curated ecosystem for founders and operators â€” built around market intelligence, peer accountability, and compounding distribution strategy.",
     expand:false, link:null, scroll:"lab", linkLabel:"Apply for Access",
   },
   {
@@ -113,9 +113,9 @@ const WORKS = [
     desc:"A proprietary methodology for designing interconnected relationships between entrepreneurs, organizations, and audiences using market principles and distribution strategy.",
     expand:true,
     expandContent:{
-      what:"The Ecosystem Architecture System is Rabbi Rhema's core consulting framework. It maps the structural relationships between brands, audiences, partners, and platforms — then designs the operating logic that makes those relationships compound over time.",
+      what:"The Ecosystem Architecture System is Rabbi Rhema's core consulting framework. It maps the structural relationships between brands, audiences, partners, and platforms â€” then designs the operating logic that makes those relationships compound over time.",
       pillars:[
-        {sym:"01", name:"Mapping",     desc:"Identify every node in your current ecosystem — people, platforms, and distribution channels."},
+        {sym:"01", name:"Mapping",     desc:"Identify every node in your current ecosystem â€” people, platforms, and distribution channels."},
         {sym:"02", name:"Structuring", desc:"Define the operating logic and relationship architecture between each node."},
         {sym:"03", name:"Activating",  desc:"Deploy systems that cause the ecosystem to self-sustain and compound without constant manual input."},
       ],
@@ -125,10 +125,10 @@ const WORKS = [
 ];
 
 const SERVICES = [
-  {icon:"◈", title:"Ecosystem Architecture",       desc:"I design the structural relationships between your brand, audience, and partners — building systems that generate compounding, self-sustaining growth."},
-  {icon:"◇", title:"Growth Strategy",              desc:"From distribution channels to conversion architecture, I map your growth pathway and build the operational blueprint to execute it at scale."},
-  {icon:"◉", title:"Digital Marketing Mentorship", desc:"6-month intensive covering affiliate marketing, audience building, and monetization systems. For early-stage entrepreneurs ready to move fast."},
-  {icon:"◫", title:"Market Intelligence",          desc:"Country-level strategic analysis via the Global Market Metrics framework. Data-driven. Decision-grade. Built for founders and investors."},
+  {icon:"â—ˆ", title:"Ecosystem Architecture",       desc:"I design the structural relationships between your brand, audience, and partners â€” building systems that generate compounding, self-sustaining growth."},
+  {icon:"â—‡", title:"Growth Strategy",              desc:"From distribution channels to conversion architecture, I map your growth pathway and build the operational blueprint to execute it at scale."},
+  {icon:"â—‰", title:"Digital Marketing Mentorship", desc:"6-month intensive covering affiliate marketing, audience building, and monetization systems. For early-stage entrepreneurs ready to move fast."},
+  {icon:"â—«", title:"Market Intelligence",          desc:"Country-level strategic analysis via the Global Market Metrics framework. Data-driven. Decision-grade. Built for founders and investors."},
 ];
 
 const SOCIALS = [
@@ -158,7 +158,7 @@ function WorkModal({work, onClose}) {
   return (
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-box" onClick={e=>e.stopPropagation()}>
-        <button className="modal-close" onClick={onClose}>✕</button>
+        <button className="modal-close" onClick={onClose}>âœ•</button>
         <div className="slabel" style={{marginBottom:12}}>{work.tag}</div>
         <h2 className="display" style={{fontSize:34,fontWeight:500,color:WHITE,lineHeight:1.2,marginBottom:20}}>{work.title}</h2>
         <div style={{height:1,background:GOLD_BORDER,marginBottom:24}}/>
@@ -204,14 +204,20 @@ function LabForm() {
   const [form, setForm] = useState({name:"",email:"",instagram:"",business:"",why:"",stage:""});
   const [submitted, setSubmitted] = useState(false);
   const set = k => e => setForm(f=>({...f,[k]:e.target.value}));
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     if(!form.name||!form.email||!form.business||!form.why) return;
-    console.log("Lab application:", form);
-    setSubmitted(true);
+    try {
+      const res = await fetch("https://formspree.io/f/mojkpwov", {
+        method:"POST",
+        headers:{"Content-Type":"application/json","Accept":"application/json"},
+        body: JSON.stringify(form),
+      });
+      if(res.ok) setSubmitted(true);
+    } catch(e) { console.error("Form error:",e); }
   };
   if(submitted) return (
     <div style={{textAlign:"center",padding:"48px 32px",border:`1px solid ${GOLD_BORDER}`,background:"rgba(201,160,41,.03)"}}>
-      <div style={{color:GOLD,fontSize:32,marginBottom:16}}>◈</div>
+      <div style={{color:GOLD,fontSize:32,marginBottom:16}}>â—ˆ</div>
       <div className="display" style={{fontSize:28,color:WHITE,marginBottom:12}}>Application Received</div>
       <p style={{fontSize:14,color:GRAY,lineHeight:1.75}}>We'll review your application and reach out within 48 hours with next steps.</p>
     </div>
@@ -240,8 +246,8 @@ function LabForm() {
             <select className="form-input" value={form.stage} onChange={set("stage")} style={{appearance:"none"}}>
               <option value="">Select stage</option>
               <option value="idea">Idea Stage</option>
-              <option value="early">Early Stage (0–6 months)</option>
-              <option value="growing">Growing (6 months – 2 years)</option>
+              <option value="early">Early Stage (0â€“6 months)</option>
+              <option value="growing">Growing (6 months â€“ 2 years)</option>
               <option value="established">Established (2+ years)</option>
             </select>
           </div>
@@ -289,7 +295,7 @@ export default function RabbiRhemaPortfolio() {
           <span className="display" style={{fontSize:21,fontWeight:600,color:WHITE,letterSpacing:".01em"}}>Rabbi <span style={{color:GOLD}}>Rhema</span></span>
         </span>
         <div className="desktop-nav" style={{display:"flex",gap:36,alignItems:"center"}}>
-          {[["works","Works"],["gmm","Market Metrics"],["o3","O³ Operator"],["lab","Growth Lab"],["services","Services"]].map(([id,l])=>(
+          {[["works","Works"],["gmm","Market Metrics"],["o3","OÂ³ Operator"],["lab","Growth Lab"],["services","Services"]].map(([id,l])=>(
             <span key={id} className="nav-lnk" onClick={()=>go(id)}>{l}</span>
           ))}
           <a href={CALENDLY} target="_blank" rel="noreferrer" className="btn-gold" style={{padding:"10px 22px"}}>Book a Call</a>
@@ -303,11 +309,11 @@ export default function RabbiRhemaPortfolio() {
         <div style={{position:"absolute",bottom:"22%",right:"14%",width:40,height:40,border:`1px solid rgba(201,160,41,.18)`,transform:"rotate(45deg)"}}/>
         <div style={{position:"absolute",bottom:"10%",left:"48px",width:120,height:1,background:`linear-gradient(90deg, rgba(201,160,41,.4), transparent)`}}/>
         <div style={{maxWidth:1100,position:"relative",zIndex:1}}>
-          <div className="slabel fu1" style={{marginBottom:24}}>Ecosystem Architect · Growth Strategist · Transformational Speaker</div>
+          <div className="slabel fu1" style={{marginBottom:24}}>Ecosystem Architect Â· Growth Strategist Â· Transformational Speaker</div>
           <h1 className="display hero-title fu2" style={{fontSize:"clamp(52px, 8.5vw, 104px)",fontWeight:300,lineHeight:1.0,letterSpacing:"-.025em",color:WHITE,marginBottom:4}}>Building Systems</h1>
           <h1 className="display hero-title fu3" style={{fontSize:"clamp(52px, 8.5vw, 104px)",fontWeight:700,lineHeight:1.0,letterSpacing:"-.025em",color:WHITE,marginBottom:4}}>That <em className="shine-text" style={{fontStyle:"italic"}}>Outlast</em></h1>
           <h1 className="display hero-title fu4" style={{fontSize:"clamp(52px, 8.5vw, 104px)",fontWeight:300,lineHeight:1.0,letterSpacing:"-.025em",color:WHITE,marginBottom:44}}>You.</h1>
-          <p className="fu5" style={{fontSize:17,fontWeight:300,lineHeight:1.75,color:"rgba(240,237,230,.62)",maxWidth:520,marginBottom:48}}>I'm Rhema Abikoye — Ecosystem Architect, Growth Strategist & Transformational Speaker. I design the interconnected systems that turn ideas into institutions and founders into market forces.</p>
+          <p className="fu5" style={{fontSize:17,fontWeight:300,lineHeight:1.75,color:"rgba(240,237,230,.62)",maxWidth:520,marginBottom:48}}>I'm Rhema Abikoye â€” Ecosystem Architect, Growth Strategist & Transformational Speaker. I design the interconnected systems that turn ideas into institutions and founders into market forces.</p>
           <div className="fu5" style={{display:"flex",gap:16,flexWrap:"wrap"}}>
             <a href={CALENDLY} target="_blank" rel="noreferrer" className="btn-gold">Book a Discovery Call</a>
             <span className="btn-outline" onClick={()=>go("works")}>Explore My Works</span>
@@ -340,17 +346,17 @@ export default function RabbiRhemaPortfolio() {
             </h2>
             <span className="gold-bar"/>
             <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.66)",marginBottom:20,marginTop:28}}>
-              At 16, I've spent 4+ years in digital marketing — starting at 13 — before evolving into ecosystem architecture: designing the systems that help entrepreneurs, organizations, and communities compound their impact over time.
+              At 16, I've spent 4+ years in digital marketing â€” starting at 13 â€” before evolving into ecosystem architecture: designing the systems that help entrepreneurs, organizations, and communities compound their impact over time.
             </p>
             <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.66)",marginBottom:36}}>
-              My work bridges digital marketing intelligence, ecosystem theory, and continental market analysis — building infrastructure for a new generation of African builders to compete at a global level.
+              My work bridges digital marketing intelligence, ecosystem theory, and continental market analysis â€” building infrastructure for a new generation of African builders to compete at a global level.
             </p>
             <a href={CALENDLY} target="_blank" rel="noreferrer" className="btn-outline">Let's Talk Strategy</a>
           </div>
           <div style={{display:"flex",flexDirection:"column",alignItems:"flex-start",gap:24}}>
-            {/* HEADSHOT — replace with <img> once you have your professional photo */}
+            {/* HEADSHOT â€” replace with <img> once you have your professional photo */}
             <div className="headshot-placeholder">
-              <div style={{color:"rgba(201,160,41,.3)",fontSize:36}}>◉</div>
+              <div style={{color:"rgba(201,160,41,.3)",fontSize:36}}>â—‰</div>
               <div style={{fontSize:10,letterSpacing:".14em",textTransform:"uppercase",color:"rgba(201,160,41,.3)",textAlign:"center",lineHeight:1.8}}>Professional Photo<br/>Coming Soon</div>
             </div>
             <div style={{background:OFF_BLACK,border:`1px solid ${GOLD_BORDER}`,padding:"20px 24px",width:"100%",maxWidth:300}}>
@@ -385,7 +391,7 @@ export default function RabbiRhemaPortfolio() {
                   <h3 style={{fontSize:19,fontWeight:500,color:WHITE,marginBottom:12,lineHeight:1.3}}>{w.title}</h3>
                   <p style={{fontSize:14,lineHeight:1.75,color:"rgba(240,237,230,.52)",marginBottom:22}}>{w.desc}</p>
                   <div style={{display:"flex",alignItems:"center",gap:8,color:GOLD,fontSize:12,letterSpacing:".06em"}}>
-                    {w.expand?"View Details":w.linkLabel||"Learn More"} <span>→</span>
+                    {w.expand?"View Details":w.linkLabel||"Learn More"} <span>â†’</span>
                   </div>
                 </div>
               );
@@ -402,10 +408,10 @@ export default function RabbiRhemaPortfolio() {
             <div>
               <h2 className="display" style={{fontSize:"clamp(32px,4vw,50px)",fontWeight:400,lineHeight:1.15,marginBottom:24}}>Global Market<br/><em style={{color:GOLD}}>Metrics</em></h2>
               <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.62)",marginBottom:16}}>
-                A proprietary 9-dimension framework for evaluating any country's market readiness — built for founders, investors, and operators entering unfamiliar territories.
+                A proprietary 9-dimension framework for evaluating any country's market readiness â€” built for founders, investors, and operators entering unfamiliar territories.
               </p>
               <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.62)",marginBottom:32}}>
-                Each country analysis is a structured intelligence report published through the framework. Access is via enrollment — these are decision-grade assets, not free content.
+                Each country analysis is a structured intelligence report published through the framework. Access is via enrollment â€” these are decision-grade assets, not free content.
               </p>
               <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:8,marginBottom:36}}>
                 {["Base Power","Relationship Power","Loaned Power","Labor Power","Backend Defense","Currency Strength","Reliance","Trust Market","Behavioral Char."].map(dim=>(
@@ -419,17 +425,17 @@ export default function RabbiRhemaPortfolio() {
             <div>
               <div style={{background:OFF_BLACK,border:`1px solid ${GOLD_BORDER}`,padding:32,marginBottom:12,position:"relative",overflow:"hidden"}}>
                 <div style={{position:"absolute",top:0,left:0,right:0,height:2,background:`linear-gradient(90deg, ${GOLD}, transparent)`}}/>
-                <div className="slabel" style={{marginBottom:12}}>Episode 01 — Singapore</div>
+                <div className="slabel" style={{marginBottom:12}}>Episode 01 â€” Singapore</div>
                 <h3 style={{fontSize:22,fontWeight:500,color:WHITE,marginBottom:12}}>Singapore: The Precision State</h3>
                 <p style={{fontSize:14,lineHeight:1.75,color:"rgba(240,237,230,.58)",marginBottom:24}}>
-                  A 9-dimension analysis of Singapore's market infrastructure — from its trust economy to behavioral characteristics as Asia's premier business gateway. Full report available to enrolled members.
+                  A 9-dimension analysis of Singapore's market infrastructure â€” from its trust economy to behavioral characteristics as Asia's premier business gateway. Full report available to enrolled members.
                 </p>
                 <div style={{display:"flex",gap:12,flexWrap:"wrap"}}>
-                  <a href={NOTION_GMM} target="_blank" rel="noreferrer" className="btn-outline" style={{fontSize:12,padding:"9px 20px"}}>Preview on Notion →</a>
+                  <a href={NOTION_GMM} target="_blank" rel="noreferrer" className="btn-outline" style={{fontSize:12,padding:"9px 20px"}}>Preview on Notion â†’</a>
                   <a href={CALENDLY} target="_blank" rel="noreferrer" className="btn-gold" style={{fontSize:12,padding:"10px 20px"}}>Get Full Access</a>
                 </div>
               </div>
-              {["Episode 02 — UAE","Episode 03 — Nigeria","Episode 04 — United States","Episode 05 — China"].map(ep=>(
+              {["Episode 02 â€” UAE","Episode 03 â€” Nigeria","Episode 04 â€” United States","Episode 05 â€” China"].map(ep=>(
                 <div key={ep} style={{padding:"15px 20px",border:`1px solid rgba(201,160,41,.08)`,marginBottom:6,display:"flex",justifyContent:"space-between",alignItems:"center"}}>
                   <span style={{fontSize:14,color:"rgba(240,237,230,.38)"}}>{ep}</span>
                   <span style={{fontSize:10,letterSpacing:".1em",textTransform:"uppercase",color:GRAY}}>Coming Soon</span>
@@ -440,20 +446,20 @@ export default function RabbiRhemaPortfolio() {
         </div>
       </section>
 
-      {/* O³ OPERATOR */}
+      {/* OÂ³ OPERATOR */}
       <section id="o3" style={{background:OFF_BLACK,padding:"120px 48px"}}>
         <div style={{maxWidth:1100,margin:"0 auto"}}>
           <div style={{textAlign:"center",marginBottom:72}}>
             <div className="slabel" style={{marginBottom:20}}>Framework & Book</div>
-            <h2 className="display" style={{fontSize:"clamp(52px,8vw,92px)",fontWeight:700,lineHeight:1.0,letterSpacing:"-.025em",marginBottom:10}}>The O<span style={{color:GOLD}}>³</span> Operator</h2>
+            <h2 className="display" style={{fontSize:"clamp(52px,8vw,92px)",fontWeight:700,lineHeight:1.0,letterSpacing:"-.025em",marginBottom:10}}>The O<span style={{color:GOLD}}>Â³</span> Operator</h2>
             <p className="display" style={{fontSize:"clamp(20px,3vw,32px)",fontWeight:300,fontStyle:"italic",color:GRAY,marginBottom:22}}>Outthink. Outbuild. Outgrow.</p>
-            <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.58)",maxWidth:560,margin:"0 auto"}}>A comprehensive framework and PDF book for early-stage entrepreneurs — built around three interconnected principles that define how operators think, build, and grow in complex markets.</p>
+            <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.58)",maxWidth:560,margin:"0 auto"}}>A comprehensive framework and PDF book for early-stage entrepreneurs â€” built around three interconnected principles that define how operators think, build, and grow in complex markets.</p>
           </div>
           <div className="three-col" style={{display:"grid",gridTemplateColumns:"repeat(3,1fr)",gap:1,background:GOLD_BORDER,marginBottom:60}}>
             {[
-              {sym:"O¹",tag:"Outthink",name:"Origin", desc:"Where you start from defines how far you can go. Origin is your foundation — positioning, philosophy, and your unfair advantages mapped."},
-              {sym:"O²",tag:"Outbuild",name:"Order",  desc:"Order is the architecture. The systems, structures, and sequences that translate vision into operational, compounding reality."},
-              {sym:"O³",tag:"Outgrow", name:"Output", desc:"Output is the compounding result of aligned origin and intelligent order. This is where market forces begin working for you."},
+              {sym:"OÂ¹",tag:"Outthink",name:"Origin", desc:"Where you start from defines how far you can go. Origin is your foundation â€” positioning, philosophy, and your unfair advantages mapped."},
+              {sym:"OÂ²",tag:"Outbuild",name:"Order",  desc:"Order is the architecture. The systems, structures, and sequences that translate vision into operational, compounding reality."},
+              {sym:"OÂ³",tag:"Outgrow", name:"Output", desc:"Output is the compounding result of aligned origin and intelligent order. This is where market forces begin working for you."},
             ].map(o=>(
               <div key={o.sym} style={{background:BLACK,padding:"48px 32px",textAlign:"center"}}>
                 <div className="display" style={{fontSize:60,fontWeight:700,color:GOLD,lineHeight:1,marginBottom:6}}>{o.sym}</div>
@@ -467,7 +473,7 @@ export default function RabbiRhemaPortfolio() {
             <div style={{display:"inline-flex",gap:20,alignItems:"center",padding:"20px 32px",border:`1px solid ${GOLD_BORDER}`,background:"rgba(201,160,41,.03)",flexWrap:"wrap",justifyContent:"center"}}>
               <div style={{textAlign:"left"}}>
                 <div style={{fontSize:11,letterSpacing:".12em",textTransform:"uppercase",color:GRAY,marginBottom:4}}>Book Status</div>
-                <div style={{fontSize:15,color:WHITE}}>In Development — PDF Release Coming Soon</div>
+                <div style={{fontSize:15,color:WHITE}}>In Development â€” PDF Release Coming Soon</div>
               </div>
               <div style={{width:1,height:40,background:GOLD_BORDER}}/>
               <a href={CALENDLY} target="_blank" rel="noreferrer" className="btn-gold" style={{fontSize:12,padding:"11px 22px",whiteSpace:"nowrap"}}>Get Early Access</a>
@@ -483,10 +489,10 @@ export default function RabbiRhemaPortfolio() {
             <div>
               <div className="slabel" style={{marginBottom:20}}>Curated Ecosystem</div>
               <h2 className="display" style={{fontSize:"clamp(36px,4.5vw,54px)",fontWeight:400,lineHeight:1.12,marginBottom:24}}>Entrepreneur's<br/><em style={{color:GOLD}}>Growth Lab</em></h2>
-              <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.62)",marginBottom:18}}>A curated ecosystem for founders, builders, and market operators — designed around peer accountability, market intelligence sharing, and distribution strategy.</p>
+              <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.62)",marginBottom:18}}>A curated ecosystem for founders, builders, and market operators â€” designed around peer accountability, market intelligence sharing, and distribution strategy.</p>
               <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.62)",marginBottom:36}}>The Lab is not a community. It's an operating system for ambitious builders who understand that growth is engineered, not wished for.</p>
               <div style={{background:"rgba(201,160,41,.05)",border:`1px solid ${GOLD_BORDER}`,padding:"18px 22px",display:"flex",gap:14,alignItems:"flex-start"}}>
-                <div style={{color:GOLD,fontSize:22,marginTop:2}}>◈</div>
+                <div style={{color:GOLD,fontSize:22,marginTop:2}}>â—ˆ</div>
                 <div>
                   <div style={{fontSize:14,fontWeight:500,color:WHITE,marginBottom:4}}>Membership by Application</div>
                   <div style={{fontSize:13,color:GRAY,lineHeight:1.65}}>Full Lab brief and membership details are available to qualified applicants only. Complete the form below to receive your access invitation.</div>
@@ -495,10 +501,10 @@ export default function RabbiRhemaPortfolio() {
             </div>
             <div>
               {[
-                {icon:"◈",title:"Market Intelligence Sessions",   desc:"Regular deep-dives into global market analysis, distributed to Lab members before public release."},
-                {icon:"◇",title:"Peer Ecosystem Network",         desc:"Curated connections between founders, operators, and builders across Africa and beyond."},
-                {icon:"◉",title:"Framework Library Access",       desc:"Full access to Rabbi Rhema's proprietary ecosystem and growth architecture frameworks."},
-                {icon:"○",title:"Growth Accountability System",   desc:"Structured accountability built around real metrics, market outcomes, and execution cadence."},
+                {icon:"â—ˆ",title:"Market Intelligence Sessions",   desc:"Regular deep-dives into global market analysis, distributed to Lab members before public release."},
+                {icon:"â—‡",title:"Peer Ecosystem Network",         desc:"Curated connections between founders, operators, and builders across Africa and beyond."},
+                {icon:"â—‰",title:"Framework Library Access",       desc:"Full access to Rabbi Rhema's proprietary ecosystem and growth architecture frameworks."},
+                {icon:"â—‹",title:"Growth Accountability System",   desc:"Structured accountability built around real metrics, market outcomes, and execution cadence."},
               ].map(item=>(
                 <div key={item.title} style={{display:"flex",gap:20,alignItems:"flex-start",padding:"22px 0",borderBottom:`1px solid rgba(201,160,41,.1)`}}>
                   <div style={{fontSize:22,color:GOLD,flexShrink:0,marginTop:2}}>{item.icon}</div>
@@ -527,7 +533,7 @@ export default function RabbiRhemaPortfolio() {
                 <div style={{fontSize:30,color:GOLD,marginBottom:18}}>{s.icon}</div>
                 <h3 style={{fontSize:19,fontWeight:500,color:WHITE,marginBottom:12}}>{s.title}</h3>
                 <p style={{fontSize:14,lineHeight:1.8,color:"rgba(240,237,230,.58)",marginBottom:24}}>{s.desc}</p>
-                <a href={CALENDLY} target="_blank" rel="noreferrer" style={{color:GOLD,fontSize:12,letterSpacing:".06em",textDecoration:"none",display:"flex",alignItems:"center",gap:8}}>Enquire <span>→</span></a>
+                <a href={CALENDLY} target="_blank" rel="noreferrer" style={{color:GOLD,fontSize:12,letterSpacing:".06em",textDecoration:"none",display:"flex",alignItems:"center",gap:8}}>Enquire <span>â†’</span></a>
               </div>
             ))}
           </div>
@@ -539,7 +545,7 @@ export default function RabbiRhemaPortfolio() {
         <div style={{maxWidth:640,margin:"0 auto"}}>
           <div className="slabel" style={{marginBottom:20}}>Ready to Build?</div>
           <h2 className="display" style={{fontSize:"clamp(40px,6.5vw,76px)",fontWeight:400,lineHeight:1.08,marginBottom:24}}>Let's Build Something<br/><em style={{color:GOLD}}>That Outlasts Us</em></h2>
-          <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.58)",marginBottom:48}}>Whether you're looking to architect your growth ecosystem, develop a market strategy, or explore a partnership — start with a discovery call.</p>
+          <p style={{fontSize:16,lineHeight:1.85,color:"rgba(240,237,230,.58)",marginBottom:48}}>Whether you're looking to architect your growth ecosystem, develop a market strategy, or explore a partnership â€” start with a discovery call.</p>
           <a href={CALENDLY} target="_blank" rel="noreferrer" className="btn-gold" style={{fontSize:14,padding:"18px 52px"}}>Book a Discovery Call</a>
           <div style={{marginTop:52,display:"flex",justifyContent:"center",gap:28,flexWrap:"wrap"}}>
             {SOCIALS.map(s=><a key={s.label} href={s.url} target="_blank" rel="noreferrer" className="social-lnk">{s.label}</a>)}
@@ -551,7 +557,7 @@ export default function RabbiRhemaPortfolio() {
       <footer style={{background:OFF_BLACK,borderTop:`1px solid ${GOLD_BORDER}`,padding:"36px 48px"}}>
         <div className="footer-wrap" style={{maxWidth:1100,margin:"0 auto",display:"flex",justifyContent:"space-between",alignItems:"center"}}>
           <span className="display" style={{fontSize:19,fontWeight:600,color:WHITE}}>Rabbi <span style={{color:GOLD}}>Rhema</span></span>
-          <span style={{fontSize:12,color:GRAY}}>© 2026 Rhema Abikoye · All Rights Reserved</span>
+          <span style={{fontSize:12,color:GRAY}}>Â© 2026 Rhema Abikoye Â· All Rights Reserved</span>
           <div style={{display:"flex",gap:18}}>
             {SOCIALS.slice(0,4).map(s=><a key={s.short} href={s.url} target="_blank" rel="noreferrer" className="social-lnk">{s.short}</a>)}
           </div>
